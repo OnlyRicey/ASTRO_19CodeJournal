@@ -9,10 +9,10 @@ def sin_table():
   
 def main():
   x = sin_table()
-  print(f"{'x':<15} | {'sin(x)':<15}")
-  print("-" * 33)
+  print(f"{'x':<10} | {'sin(x)':<10}")
+  print("-" * 20)
   for i in range(1000):
-        print(f"{x[1][i]:<15.4f} | {x[0][i]:<15.4f}")
+        print(f"{x[1][i]:<10.5f} | {x[0][i]:<10.5f}")
     
 
 if __name__ == "__main__":
